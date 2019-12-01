@@ -1,9 +1,8 @@
-package benjorama.testmod.testblocks;
+package com.github.benjorama.testmod.testblocks;
 
-import benjorama.testmod.TestMod;
+import com.github.benjorama.testmod.TestMod;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.item.BlockItem;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

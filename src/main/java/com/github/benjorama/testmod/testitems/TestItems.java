@@ -1,7 +1,7 @@
-package benjorama.testmod.testitems;
+package com.github.benjorama.testmod.testitems;
  
-import benjorama.testmod.TestMod;
-import benjorama.testmod.testblocks.TestBlocks;
+import com.github.benjorama.testmod.TestMod;
+import com.github.benjorama.testmod.testblocks.TestBlocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;

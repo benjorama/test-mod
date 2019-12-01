@@ -1,4 +1,4 @@
-package benjorama.testmod;
+package com.github.benjorama.testmod;
 
 import net.minecraftforge.fml.common.Mod;
 
