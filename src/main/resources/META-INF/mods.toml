@@ -3,7 +3,7 @@ loaderVersion="[28,)" #mandatory. 26 for 1.14.2, 27 for 1.14.3
 credits="Thanks suppergerrie2 for this example!" #optional
 [[mods]] #mandatory
 modId="testmod" #mandatory
-version="1.0" #mandatory
+version="${version}" #mandatory
 displayName="Test Mod" #mandatory
 description='''
 A mod developed from suppergerrie2's tutorial. This is a test.'''
