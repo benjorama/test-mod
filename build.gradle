@@ -147,3 +147,18 @@ publishing {
         }
     }
 }
+
+/* Create a sources jar: A non-executable jar that contains the source code for the mod.
+ * Useful useful for you if you ever loose your code and also vital to any developers 
+ * who want to write mods that interact with this mod.
+ */
+task sourcesJar(type: Jar, dependsOn: classes) {
+	classifier = 'sources'
+	from sourceSets.main.allSource
+}
+build.dependsOn sourcesJar
+
+artifacts {
+	archives sourcesJar
+}
+ 
