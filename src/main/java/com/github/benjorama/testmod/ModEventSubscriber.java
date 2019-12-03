@@ -13,8 +13,7 @@ public class ModEventSubscriber {
 	@SubscribeEvent
 	public static void onRegisterItems(RegistryEvent.Register<Item> event) {
 		event.getRegistry().registerAll(
-				setup(new Item(new Item.Properties()), "example_item"),
-				setup(new Item(new Item.Properties()), "example_item2"));
+				setup(new Item(new Item.Properties()), "example_item"));
 	}
 	
 	public static <T extends IForgeRegistryEntry<T>> T setup(
