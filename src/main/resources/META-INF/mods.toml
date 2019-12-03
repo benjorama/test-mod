@@ -5,5 +5,4 @@ credits="Thanks suppergerrie2 for this example!" #optional
 modId="testmod" #mandatory
 version="${version}" #mandatory
 displayName="Test Mod" #mandatory
-description='''
-A mod developed from suppergerrie2's tutorial. This is a test.'''
+description='''This is only a test.'''
